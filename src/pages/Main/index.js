@@ -3,6 +3,7 @@ import React from "react";
 import {
   Container,
   HeaderApplication,
+  FooterApplication,
   ApplicationText,
   GroupMenu,
   MenuItem
@@ -13,18 +14,14 @@ import { Text, StatusBar } from "react-native";
 const Main = () => (
   <Container>
     <StatusBar barStyle="light-content" backgroundColor="#212529" />
-    <HeaderApplication>
-      <ApplicationText>RT NaFlix ReactNative</ApplicationText>
-      <ApplicationText>aa</ApplicationText>
-    </HeaderApplication>
-    <GroupMenu>
-      <MenuItem>
-        <Text>Teste</Text>
-      </MenuItem>
-      <MenuItem>
-        <Text>Teste</Text>
-      </MenuItem>
-    </GroupMenu>
+    <HeaderApplication />
+    <Menu />
+    <Main>
+    <LastReleased />
+    <MostVoted />
+    <Main />
+
+
   </Container>
 );
 

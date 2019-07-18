@@ -10,23 +10,3 @@ export const HeaderApplication = styled.View`
   flex-direction: row;
   justify-content: space-between;
 `;
-
-export const ApplicationText = styled.Text`
-  color: #fed136;
-  font-family: "Kaushan Script, sans-serif";
-  font-size: 30px;
-`;
-
-export const GroupMenu = styled.View`
-  width: 100%;
-  margin-top: 5px;
-  border-radius: 5px;
-  align-items: center;
-  align-content: space-between;
-  display: flex;
-`;
-
-export const MenuItem = styled.View`
-  background: #fcfcfc;
-  width: 80px;
-`;
