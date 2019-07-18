@@ -13,8 +13,8 @@ export const HeaderApplication = styled.View`
 
 export const ApplicationText = styled.Text`
   color: #fed136;
-  font-family: "Kaushan Script Regular, sans-serif";
-  font-size: 20px;
+  font-family: "Kaushan Script, sans-serif";
+  font-size: 30px;
 `;
 
 export const GroupMenu = styled.View`
